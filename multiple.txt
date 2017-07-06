@@ -1,7 +1,8 @@
 using System;
     class Rectangle
     {
-        protected double length;
+	    //changed from s3
+        protected double l;
         protected double width;
         public Rectangle(double l, double w)
         {
