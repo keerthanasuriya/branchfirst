@@ -10,7 +10,8 @@ using System;
             length = l;
             width = w;
         }
-        public double GetArea()
+		//changed third time from s3
+        public double GetRectangle()
         {
             return length * width;
         }
