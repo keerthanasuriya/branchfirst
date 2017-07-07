@@ -1,14 +1,17 @@
 using System;
     class Rectangle
     {
-        protected double length;
+	    //changed from s3
+        protected double l;
         protected double width;
-        public Rectangle(double l, double w)
+		//changed from s3 second time
+        public Rectangle(double s, double g)
         {
             length = l;
             width = w;
         }
-        public double GetArea()
+		//changed third time from s3
+        public double GetRectangle()
         {
             return length * width;
         }
